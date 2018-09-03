@@ -109,7 +109,7 @@ section#trips img {
     margin-top: 40px;
 }
 
-.dados numeros {
+.dados .numeros {
     margin-bottom: 30px;
 }
 
@@ -135,6 +135,7 @@ section#messages .caixa {
     flex-direction: column;
     text-align: center;
     padding-left: 20px;
+    margin-bottom: 40px;
 }
 
 section#messages .texto {
