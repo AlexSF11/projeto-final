@@ -109,6 +109,10 @@ section#trips img {
     margin-top: 40px;
 }
 
+hr {
+    display: none;
+}
+
 
 
 section#messages .container {
