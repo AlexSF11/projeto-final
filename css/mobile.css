@@ -1,0 +1,230 @@
+header li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+}
+
+header h1 {
+    margin: 20px 0px 0px 10px;
+}
+
+nav {
+    width: 80%;
+}
+
+ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+}
+
+ul.topnav li {
+    display: none;
+}
+
+ul.topnav.responsive {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    line-height: 5px;
+    width: 100%;
+}
+
+ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+ul.topnav.responsive li {
+    float: none;
+    display: inline;
+}
+
+ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+ul.topnav li.icon {
+    float: right;
+    /*O ícone será exibido ao lado direito*/
+    display: inline-block;
+}
+
+
+
+section#home .chamada h2 {
+    font-size: 28px;
+}
+
+section#home .chamada p {
+    font-size: 18px;
+}
+
+
+
+section#trips .container {
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 20%), url(../imagens/Vignettes.png);
+}
+
+section#trips .container {
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+section#trips .texto {
+    padding: 0;
+    width: auto;
+    text-align: center;
+}
+
+section#trips .texto h1 {
+    font-size: 28px;
+    margin: 10px 40px 10px 40px;
+}
+
+section#trips .texto p {
+    font-size: 18px;
+    margin: 0px 60px 0px 60px;
+}
+
+section#trips img {
+    width: 300px;
+    height: 260px;
+    margin-top: 120px;
+    padding-right: 5%;
+}
+
+.dados {
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+
+
+section#messages .container {
+    flex-direction: column;
+    align-items: center;
+}
+
+section#messages #img_principal {
+    width: 300px;
+    height: 260px;
+}
+
+section#messages .caixa {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 20px;
+}
+
+section#messages .texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+}
+
+section#messages .texto img {
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    float: none;
+}
+
+section#messages .texto h3 {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+section#messages .texto p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+
+
+section#help .texto {
+    width: 100%;
+}
+
+section#help .texto h2 {
+    font-size: 28px;
+}
+
+section#help .texto p {
+    font-size: 18px;
+}
+
+section#help .texto .select_b {
+    width: 300px;
+}
+
+section#help .texto .select_b select {
+    width: 200px;
+}
+
+section#help .texto a {
+    width: 300px;
+}
+
+
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .texto {
+    margin-top: 30px;
+}
+
+footer .opcoes select {
+    width: 200px;
+}
+
+footer .opcoes .select_b {
+    width: 300px;
+}
+
+footer .texto ul {
+    margin-left: 8%;
+}
+
+footer .texto li a {
+    font-size: 16px;
+}
+
+footer #terms h1 {
+    background-image: url(..//imagens/logo_footer.png);
+    background-repeat: no-repeat;
+    margin-left: 2%;
+    width: 40px;
+}
+
+footer #terms li {
+    padding-right: 10px;
+}
+
+footer #terms li a {
+    font-size: 14px;
+}

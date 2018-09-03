@@ -1,0 +1,31 @@
+section#trips .texto h1 {
+    font-size: 26px;
+}
+
+section#trips .texto p {
+    font-size: 18px;
+}
+
+section#trips img {
+    margin-top: 360px;
+    padding-right: 5%;
+}
+
+
+
+section#messages #img_principal {
+    width: 500px;
+    height: 400px;
+}
+
+section#messages .texto {
+    margin-top: 40px;
+}
+
+section#messages .texto h3 {
+    font-size: 18px;
+}
+
+section#messages .texto p {
+    font-size: 18px;
+}
