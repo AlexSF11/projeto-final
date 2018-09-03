@@ -109,6 +109,10 @@ section#trips img {
     margin-top: 40px;
 }
 
+.dados numeros {
+    margin-bottom: 30px;
+}
+
 hr {
     display: none;
 }
